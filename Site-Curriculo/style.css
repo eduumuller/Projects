@@ -1,7 +1,8 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
-/* CSS Header e Footer */
+
+/* CSS Header, Footer */
 .caixa {
 	position: relative;
 	width: 100%;
@@ -55,16 +56,15 @@ footer {
 .apresentacao {
 	padding: 2em 0;
 	text-align: center;
+	background: #FEFEFE;
 }
 
 .tabela-apresentacao {
-	position: relative;
-	top: 2em;
-	width:100px;
-	height:100px;
-	left:50em;
-	bottom: 2em;
-}
+	margin-top: 2em;
+    width:20%; 
+    margin-left:40%; 
+    margin-right:40%;
+  }
 
 thead {
 	background: #555555;
@@ -81,17 +81,77 @@ td:first-child {
   font-weight: bold;
 }
 
-.informacoes p {
+.informacoes {
+	background: linear-gradient(#FEFEFE, #F8F8FF);
+}
+
+li b {
+	font-weight: bold;
+}
+
+.informacoes li {
 	text-align: center;
-	line-height: 1.25em;
+	font-size: 1.25em;
+	line-height: 1.5em;
 }
 
-.informacoes p:before {
-	content: "-"
+.informacoes li:hover {
+	text-decoration: underline;
 }
 
+.frame {
+	background: #F8F8FF;
+}
 iframe {
-	margin-top: 100px;
 	position: relative;
-	left: 25em;
+	margin-top: 100px;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+/* CSS Pagina Formação Academica */
+
+.formacao-academica {
+	padding: 2em 0;
+	text-align: center;
+	line-height: 2em;
+	font-size: 1.5em;
+	background: #FEFEFE;
+}
+
+.formacao-complementar {
+	padding: 2em 0;
+	text-align: center;
+	line-height: 1.5em;
+	font-size: 1.1em;
+	background: linear-gradient(#FEFEFE, #F8F8FF);
+}
+
+/* CSS Experiencia profissional */
+
+.imagem-cv {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.caixa-cv {
+	position: relative;
+	width: 75%;
+	left: 12.5%;
+	background: linear-gradient(90deg,#F8F8FF, #FEFEFE, #F8F8FF);
+}
+
+.experiencia-profissional {
+	text-align: center;
+	padding: 2em 0;
+	text-align: center;
+	line-height: 1.7em;
+	font-size: 1.2em;
+}
+
+.resumo-qualificacoes {
+	text-align: center;
+	text-align: center;
+	line-height: 1.3em;
+	font-size: 1.2em;
 }
