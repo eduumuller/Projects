@@ -1,0 +1,132 @@
+body {
+    background-color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+}
+
+#box1 {
+    background-color: white;
+    position: relative;
+    width: 50%;
+    border-top-right-radius:  10px;
+    border-top-left-radius:  10px;
+    margin-left: 25%;
+    margin-top: 10%; 
+}
+#mainTitleBox1 {
+    font-weight: 700;
+    padding-top: 2em;
+    padding-left: 1em;
+    color: hsl(179, 62%, 43%);
+    font-size: 2em;
+}
+
+#subTitleBox1 {
+    padding-top: 1em;
+    padding-left: 1.4em;
+    padding-bottom: 20px;
+    color: hsl(71, 73%, 54%);
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+#paragraph1Box1 {
+    color: hsl(218, 22%, 67%);
+    padding-left: 1.5em;
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+#paragraph2Box1 {
+    color: hsl(218, 22%, 67%);
+    padding-top: 0.5em;
+    padding-left: 1.5em;
+    padding-bottom: 2em;
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+#flexBox {
+    display: flex;
+}
+#box2 {
+    background-color: #39A578;
+    position: relative;
+    width: 25%;
+    border-bottom-left-radius: 10px;
+    margin-left: 25%;
+    margin-bottom: 25%;
+    
+}
+
+#mainTitleBox2{
+    font-weight: 700;
+    font-size: 1.5em;
+    padding-top: 2em;
+    padding-left: 15%;
+    color: hsl(204, 43%, 93%);
+}
+
+td:first-child {
+    font-weight: bold;
+    font-size: 2.5em;
+    color: hsl(204, 43%, 93%);
+    padding-right: 0.5em
+    
+}
+
+#price {
+    margin-top: 5%;
+    margin-left: 15%;
+    color: lightgray;
+    font-weight: bold;
+}
+
+#paragraph1Box2 {
+    font-size: 1.4em;
+    padding-top: 1em;
+    padding-left: 15%;
+    color: hsl(204, 43%, 93%);
+}
+
+#button {
+    background: hsl(71, 73%, 54%);
+    font-size: 1.3em;
+    border: none;
+    color: whitesmoke;
+    font-weight: bold;
+    width: 75%;
+    height: 3em;
+    margin-left: 12.5%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+}
+
+#button:hover {
+    transition-duration: 0.2s;
+    cursor: pointer;
+    font-size: 150%;
+}
+
+#box3 {
+    background-color: #4EB58A;
+    width: 25%;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 25%;
+}
+
+#mainTitleBox3{
+    font-weight: 700;
+    font-size: 1.5em;
+    padding-top: 2em;
+    padding-left: 15%;
+    padding-bottom: 5%;
+    color: hsl(204, 43%, 93%);
+}
+
+.paragraphsBox3 {
+    font-size: 1.2em;
+    padding-left: 15%;
+    line-height: 1.3em; 
+    color: hsl(204, 43%, 93%);
+}
