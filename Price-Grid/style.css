@@ -46,6 +46,7 @@ body {
 }
 
 #flexBox {
+		margin-top: -2%;
     display: flex;
 }
 #box2 {
